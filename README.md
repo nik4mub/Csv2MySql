@@ -19,7 +19,7 @@ Type: Python csv2Mysql.py
 
 You will be prompted for input of file name with the .csv extension
 
-It will locate the file
+It will locate the file in folder that the script is in
 
 Process the Data in the File
 
