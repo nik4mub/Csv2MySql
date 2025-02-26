@@ -1,36 +1,37 @@
 # Csv2MySql
 Linc Coding Challenge
 
-## Requirements: 
-Language: Python27
+## Overview
+Csv2MySql is a Python 2.7 script that processes CSV files, imports the data into a MySQL database, and performs predefined queries.
 
-Dependecies: pandas, sqlalchemy, csv, sys
+## Requirements
+- **Language:** Python 2.7
+- **Dependencies:** `pandas`, `sqlalchemy`, `csv`, `sys`
 
+## Installation
+Ensure you have Python 2.7 installed along with the required dependencies. You can install them using:
+```sh
+pip install pandas sqlalchemy
+```
 
+## Running the Program
+1. Open a command line terminal.
+2. Navigate to the directory where the script is located.
+3. Run the script using:
+   ```sh
+   python csv2Mysql.py
+   ```
+4. When prompted, enter the CSV file name (including the `.csv` extension).
+5. The script will locate the file in its directory, process the data, and execute queries.
+6. Once completed, the message **"All done"** will appear. Press **Enter** to exit.
 
-## Run Program Instructions:
+## Notes
+- Errors may occur if:
+  - The file is not found.
+  - The data cannot be processed.
+  - Queries cannot be performed.
+- **Executable not included** due to issues rebuilding with `py2exe`.
+- **Web component not included**.
 
-Open Command Line
+For any issues, please check the error messages and ensure the CSV file is correctly formatted.
 
-Go to directory code is in 
-
-Type: Python csv2Mysql.py
-
-
-You will be prompted for input of file name with the .csv extension
-
-It will locate the file in folder that the script is in
-
-Process the Data in the File
-
-Perform Queries
-
-Print All done and press Enter when completed
-
-## Note
-
-An error will occur if file cannot be located, data cannot be processed or perform queries.
-
-Executable not included. Issues rebuilding the exe in py2exe.
-
-Web component not included
