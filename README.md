@@ -1,5 +1,5 @@
 # Csv2MySql
-Linc Coding Challenge
+Linc  Challenge
 
 ## Overview
 Csv2MySql is a Python 2.7 script that processes CSV files, imports the data into a MySQL database, and performs predefined queries.
@@ -35,5 +35,9 @@ pip install pandas sqlalchemy
 
 For any issues, please check the error messages and ensure the CSV file is correctly formatted.
 
+
+HAHA MAX WAS HERE, GRAFITI-ING YOUR README
+
 You Grimmy Troll!
+
 
