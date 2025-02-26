@@ -35,3 +35,5 @@ pip install pandas sqlalchemy
 
 For any issues, please check the error messages and ensure the CSV file is correctly formatted.
 
+You Grimmy Troll!
+
